@@ -1,0 +1,100 @@
+.main {
+  background-image: url("../img/baner_glowna.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100vh;
+  background-color: var(--white-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &__container {
+    padding-top: 175px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 80px;
+  }
+  &__wrapper {
+    height: 100%;
+  }
+  &__picture {
+    background-image: url("../img/baner_glowna.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 10em;
+    height: 100%;
+    position: relative;
+  }
+  &__titles {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 60px;
+    color: var(--white-color);
+  }
+  &__subtitle {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 60px;
+  }
+  @media (max-width: 1025px) {
+    background-position-x: -360%;
+  }
+  @media (max-width: 768px) {
+    background-position-x: 400%;
+  }
+  @media (max-width: 426px) {
+    background-image: url("../img/baner_glownamobile.jpg");
+    background-position-x: 114%;
+    height: 485px;
+    &__picture {
+      padding-right: 0;
+      align-items: center;
+      height: 332px;
+    }
+    &__container {
+      padding-top: 89px;
+    }
+    &__title {
+      font-size: 39px;
+      line-height: 31px;
+    }
+    &__subtitle {
+      font-size: 27px;
+      line-height: 31px;
+    }
+  }
+  @media (max-width: 320px) {
+    background-position-x: 111%;
+  }
+}
+
+.aside {
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 116px;
+  left: -160px;
+  &__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 0.46;
+    color: var(--white-color);
+    margin-right: 53px;
+    text-transform: uppercase;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
