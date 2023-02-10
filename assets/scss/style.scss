@@ -35,6 +35,7 @@ a {
   transition: 0.2s all;
   cursor: pointer;
   margin-top: 25px;
+  text-transform: uppercase;
   &:hover {
     background-color: var(--accent-color);
   }

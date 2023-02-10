@@ -68,11 +68,14 @@
       }
     }
     &__block {
-      padding: 34px 19px 14px 19px;
+      padding: 34px 19px 30px 19px;
     }
     &__paragraph {
       font-size: 14px;
       line-height: 22px;
+    }
+    &__elements {
+      margin-top: 15px;
     }
     &__heading {
       margin-bottom: 24px;
