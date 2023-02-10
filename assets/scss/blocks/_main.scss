@@ -1,8 +1,8 @@
 .main {
-  background-image: url("../img/baner_glowna.jpg");
+  background-image: url("../img/glowna_tlo.jpg");
   background-repeat: no-repeat;
   background-position: left top;
-  background-size: 100vh;
+  background-size: cover;
   background-color: var(--white-color);
   height: 100vh;
   display: flex;
@@ -45,15 +45,14 @@
     font-size: 52px;
     line-height: 60px;
   }
-  @media (max-width: 1025px) {
-    background-position-x: -360%;
+  @media (max-width: 1103px) {
+    // background-position-x: -360%;
   }
   @media (max-width: 768px) {
-    background-position-x: 400%;
+    background-position-x: 37%;
   }
-  @media (max-width: 426px) {
-    background-image: url("../img/baner_glownamobile.jpg");
-    background-position-x: 114%;
+  @media (max-width: 630px) {
+    background-position-x: 10%;
     height: 485px;
     &__picture {
       padding-right: 0;
@@ -72,8 +71,8 @@
       line-height: 31px;
     }
   }
-  @media (max-width: 320px) {
-    background-position-x: 111%;
+  @media (max-width: 425px) {
+    background-position-x: 28%;
   }
 }
 

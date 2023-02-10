@@ -57,6 +57,20 @@ a {
   --light-grey: #FAFAFA;
 }
 
+.hover {
+  &:hover {
+    color: var(--accent-color);
+    transition: 0.2s all;
+  }
+}
+
 @import "blocks/fonts.scss";
 @import "blocks/header.scss";
 @import "blocks/main.scss";
+@import "blocks/advantages.scss";
+@import "blocks/kategoria.scss";
+@import "blocks/signature.scss";
+@import "blocks/prefooter.scss";
+@import "blocks/reviews.scss";
+@import "blocks/map.scss";
+@import "blocks/footer.scss";
