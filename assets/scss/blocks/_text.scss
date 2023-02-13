@@ -1,0 +1,52 @@
+.texts {
+  padding: 13px 0 69px 0;
+  &__picture {
+    display: flex;
+    align-items: center;
+  }
+  &__block {
+    margin-right: 42px;
+  }
+  &__text {
+    margin-bottom: 42px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 42px;
+  }
+  @media (max-width: 1024px) {
+    &__image {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+    &__block {
+      width: 50%;
+    }
+  }
+  @media (max-width: 769px) {
+    &__picture {
+      flex-direction: column;
+    }
+    &__block {
+      width: 100%;
+      margin-right: 0;
+    }
+    &__image {
+      width: 100%;
+      margin-top: 20px;
+    }
+    &__paragraph {
+      margin-bottom: 10px;
+    }
+    &__text {
+      margin-bottom: 10px;
+    }
+  }
+}

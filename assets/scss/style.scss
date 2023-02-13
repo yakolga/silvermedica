@@ -36,6 +36,7 @@ a {
   cursor: pointer;
   margin-top: 25px;
   text-transform: uppercase;
+  border: none;
   &:hover {
     background-color: var(--accent-color);
   }
@@ -65,6 +66,21 @@ a {
   }
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--grey-deep);
+  @media (max-width: 768px) {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
 @import "blocks/fonts.scss";
 @import "blocks/header.scss";
 @import "blocks/main.scss";
@@ -75,3 +91,9 @@ a {
 @import "blocks/reviews.scss";
 @import "blocks/map.scss";
 @import "blocks/footer.scss";
+@import "blocks/mini.scss";
+@import "blocks/text.scss";
+@import "blocks/prefootermini.scss";
+@import "blocks/galeria.scss";
+@import "blocks/oferta.scss";
+@import "blocks/kontakt.scss";

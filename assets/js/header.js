@@ -41,6 +41,9 @@ window.addEventListener("DOMContentLoaded", () => {
       header.style.backgroundColor = 'transparent';
       if (window.screen.width < 762) {
         header.style.padding = '20px 0';
+        headerLink.forEach(link => {
+          link.style.color = "var(--white-color)"
+        });
       }
     }
   }

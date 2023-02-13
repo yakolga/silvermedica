@@ -1,0 +1,9 @@
+.prefootermini {
+  position: relative;
+  min-height: 217px;
+  @media (max-width: 1024px) {
+    &__wrapper {
+      position: static;
+    }
+  }
+}

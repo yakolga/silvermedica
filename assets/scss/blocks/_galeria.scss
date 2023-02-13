@@ -1,0 +1,21 @@
+.galeria {
+  &__galeria {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  &__image {
+    width: 100%;
+  }
+}
+
+.grid {
+  &__item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  &__item-12 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+}
