@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Silvermedica</title>
   <meta name="description" content="Silvermedica">
-  <link rel="preconnect" media="print" onload="this.media='all'" href="https://fonts.googleapis.com">
-  <link rel="preconnect" media="print" onload="this.media='all'" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com" media="print" onload="this.media='all'">
+  <link rel="preload" as="style" onload="this.media='all'" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" media="print" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap" crossorigin media="print" onload="this.media='all'">
   <link rel="stylesheet" media="print" onload="this.media='all'" href="assets/slick/slick.css">
   <link rel="stylesheet" href="assets/css/style.min.css">
 </head>
@@ -103,7 +103,7 @@
             <img src="assets/img/kategoria_1.webp" alt="Leczenie próchnicy">
           </div>
           <div class="kategoria__background">
-            <h4 class="kategoria__heading">Leczenie <br>próchnicy</h4>
+            <h3 class="kategoria__heading">Leczenie <br>próchnicy</h3>
           </div>
         </a>
         <a href="#" class="kategoria__part kategoria__reverse">
@@ -111,12 +111,12 @@
             <img src="assets/img/kategoria_2.webp" alt="Leczenie kanałowe">
           </div>
           <div class="kategoria__background">
-            <h4 class="kategoria__heading">Leczenie <br>kanałowe</h4>
+            <h3 class="kategoria__heading">Leczenie <br>kanałowe</h3>
           </div>
         </a>
         <a href="#" class="kategoria__part kategoria__reverse">
           <div class="kategoria__background">
-            <h4 class="kategoria__heading">Protetyka</h4>
+            <h3 class="kategoria__heading">Protetyka</h3>
           </div>
           <div class="kategoria__element">
             <img src="assets/img/kategoria_3.webp" alt="Protetyka">
@@ -124,8 +124,8 @@
         </a>
         <a href="#" class="kategoria__part">
           <div class="kategoria__background">
-            <h4 class="kategoria__heading">Profilaktyka<br>
-              i czyszczenie</h4>
+            <h3 class="kategoria__heading">Profilaktyka<br>
+              i czyszczenie</h3>
           </div>
           <div class="kategoria__element">
             <img src="assets/img/kategoria_4.webp" alt="Profilaktyka i czyszczenie">
@@ -136,7 +136,7 @@
             <img src="assets/img/kategoria_5.webp" alt="Wybielanie">
           </div>
           <div class="kategoria__background">
-            <h4 class="kategoria__heading">Wybielanie</h4>
+            <h3 class="kategoria__heading">Wybielanie</h3>
           </div>
         </a>
         <a href="#" class="kategoria__part kategoria__reverse">
@@ -144,7 +144,7 @@
             <img src="assets/img/kategoria_6.webp" alt="Diagnostyka">
           </div>
           <div class="kategoria__background">
-            <h4 class="kategoria__heading">Diagnostyka</h4>
+            <h3 class="kategoria__heading">Diagnostyka</h3>
           </div>
         </a>
       </div>
