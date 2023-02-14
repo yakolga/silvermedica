@@ -75,6 +75,10 @@
   }
   &__link {
     margin-right: 20px;
+    img {
+      width: 36px; 
+      height: 36px;
+    }
     &:last-child {
       margin-right: 0;
     }

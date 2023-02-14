@@ -3,6 +3,11 @@
   position: fixed;
   width: 100%;
   z-index: 100;
+  &__logo {
+    img {
+      width: 145px;
+    }
+  }
   &__ul {
     display: flex;
   }
