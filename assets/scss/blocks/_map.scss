@@ -10,6 +10,12 @@
   &__mobile {
     display: none;
   }
+  &__image {
+    img {
+      width: 67px; 
+      height: 97px;
+    }
+  }
   &__block {
     display: flex;
     align-items: end;
@@ -51,6 +57,7 @@
     &__mobile {
       display: block;
       width: 100%;
+      height: 100%;
     }
   }
 }
