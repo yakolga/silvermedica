@@ -37,9 +37,17 @@
     position: absolute;
     right: 31px;
     top: -61px;
+    img {
+      width: 115px;
+      height: 115px;
+    }
   }
   &__quote {
     margin-bottom: 16px;
+    img {
+      width: 32px;
+      height: 27px;
+    }
   }
 }
 
