@@ -19,11 +19,15 @@ window.addEventListener("DOMContentLoaded", () => {
   window.onscroll = function changeHeader() {
     const header = document.querySelector('.header'),
       headerLink = document.querySelectorAll('.header__link'),
-      hamburgerSpan = document.querySelectorAll('.header__hamburger span');
+      hamburgerSpan = document.querySelectorAll('.header__hamburger span'), 
+      linkAfter = document.querySelectorAll('.header__link:after');
 
     if (window.pageYOffset > 100) {
       header.style.backgroundColor = 'var(--accent-color)';
-      header.style.padding = '10px 0';
+      header.style.padding = '15px 0px 10px 0';
+      linkAfter.forEach(elem => {
+        elem.style.backgroundColor = "var(--white-color)";
+      });
       headerLink.forEach(link => {
         link.style.color = "var(--white-color)"
       });

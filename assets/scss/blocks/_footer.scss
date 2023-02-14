@@ -24,7 +24,6 @@
     font-size: 16px;
     line-height: 20px;
     color: var(--grey-deep);
-    text-decoration: underline;
     a {
       color: var(--grey-deep);
     }
@@ -35,6 +34,10 @@
     }
     &__ul {
       justify-content: space-between;
+      justify-content: center;
+    }
+    &__link {
+      margin: 10px;
     }
     &__nav {
       margin-bottom: 39px;

@@ -29,12 +29,18 @@
     text-transform: uppercase;
     color: var(--grey-deep);
     &:after {
-      display: none;
+      display: block;
       content: "";
-      margin-top: 12px;
-      width: 30%;
+      margin-top: 5px;
+      width: 60%;
       height: 2px;
       background-color: transparent;
+      transition: 0.2s all;
+    }
+    &:hover {
+      &:after {
+        background-color: var(--accent-color);
+      }
     }
   }
   &__active {
@@ -43,12 +49,18 @@
     text-transform: uppercase;
     &:after {
       content: "";
-      margin-top: 12px;
+      margin-top: 5px;
       width: 30%;
       display: block;
       height: 2px;
       background-color: var(--white-color);
       opacity: 0.26;
+    }
+    &:hover {
+      &:after {
+        transition: 0.2s all;
+        opacity: 1;
+      }
     }
   }
   &__hamburger {
@@ -62,7 +74,7 @@
       margin-left: 50px;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1025px) {
     padding: 20px 0;
     &__wrapper {
       align-items: unset;
