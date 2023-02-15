@@ -55,12 +55,12 @@
 
   @media (max-width: 630px) {
     background-position-x: 10%;
-    height: 485px;
+    height: 360px;
 
     &__picture {
       padding-right: 0;
       align-items: center;
-      height: 309px;
+      height: 197px;
     }
 
     &__container {
@@ -69,6 +69,6 @@
   }
 
   @media (max-width: 425px) {
-    background-position-x: 28%;
+    background-position-x: 16%;
   }
 }

@@ -68,6 +68,10 @@ a {
 
 .underline {
   text-decoration: underline;
+  &:hover {
+    transition: 0.2s all;
+    text-decoration: none;
+  }
 }
 
 .text {

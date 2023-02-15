@@ -26,6 +26,9 @@
     align-items: center;
     margin-bottom: 20px;
     justify-content: space-between;
+    &:last-child {
+      margin-top: 10px;
+    }
   }
   &__checkbox {
     display: flex;
@@ -67,6 +70,9 @@
     line-height: 26px;
     color: var(--grey-deep);
   }
+  textarea {
+    resize: none;
+  }
   @media (max-width: 1025px) {
     &__inner {
       flex-direction: column;
@@ -80,6 +86,15 @@
   @media (max-width: 426px) {
     &__block {
       padding: 15px 19px;
+    }
+    &__column {
+      flex-direction: column;
+    }
+    &__input {
+      &:first-child {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
     }
   }
 }
