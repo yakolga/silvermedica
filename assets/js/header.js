@@ -8,14 +8,6 @@ window.addEventListener("DOMContentLoaded", () => {
     menu.classList.toggle("header__nav_active");
   });
 
-
-  menuItem.forEach((item) => {
-    item.addEventListener("click", (e) => {
-      hamburger.classList.toggle("header__hamburger_active");
-      menu.classList.toggle("header__nav_active");
-    });
-  });
-
   window.onscroll = function changeHeader() {
     const header = document.querySelector('.header'),
       headerLink = document.querySelectorAll('.header__link'),
@@ -43,7 +35,7 @@ window.addEventListener("DOMContentLoaded", () => {
       });
       header.style.padding = '63px 0';
       header.style.backgroundColor = 'transparent';
-      if (window.screen.width < 762) {
+      if (window.screen.width < 1200) {
         header.style.padding = '20px 0';
         headerLink.forEach(link => {
           link.style.color = "var(--white-color)"
