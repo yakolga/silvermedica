@@ -24,7 +24,7 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--white-color);
-    margin-top: 39px;
+    margin-top: 37px;
   }
 
   &__wrapper {
@@ -70,5 +70,9 @@
 
   @media (max-width: 425px) {
     background-position-x: 16%;
+    &__category {
+      font-size: 15px;
+      line-height: 19px;
+    }
   }
 }
