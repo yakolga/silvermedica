@@ -21,17 +21,66 @@
       <div class="header__wrapper">
         <div class="header__wrap">
           <a href="index.html" class="header__logo">
-            <img src="assets/img/logo.svg" alt="logo">
+            <img src="assets/img/dentysta-szczecin-niebuszewo.svg" alt="logo">
           </a>
           <a href="#" class="header__active">Umów wizytę</a>
         </div>
-        <nav class="header__nav">
-          <ul class="header__ul">
-            <li class="header__li"><a href="o-nas.html" class="header__link">O nas</a></li>
-            <li class="header__li"><a href="nasz-gabinet.html" class="header__link">Nasz gabinet</a></li>
-            <li class="header__li"><a href="oferta.html" class="header__link">Oferta</a></li>
-            <li class="header__li"><a href="medycyna-estytyczna.html" class="header__link">Medycyna estetyczna</a></li>
-            <li class="header__li"><a href="kontakt.html" class="header__link">Kontakt</a></li>
+        <nav class="header__nav menu">
+          <ul class="header__ul menu__list">
+            <li class="header__li"><a href="index.html" class="header__link menu__link">Strona główna</a></li>
+            <li class="header__li">
+              <a href="oferta.html" class="header__link menu__link">Nasze usługi</a>
+              <span class="menu__arrow arrow"></span>
+              <ul class="header__menu-list sub-menu__list">
+                <li class="header__element">
+                  <a class="header__menu-link sub-menu__link" href="ortodonta-szczecin.html">Ortodoncja</a>
+                </li>
+                <li class="header__element">
+                  <a class="header__menu-link sub-menu__link" href="stomatolog-dzieciecy-szczecin.html">Stomatolog dziecięcy</a>
+                </li>
+                <li class="header__element">
+                  <a class="header__menu-link sub-menu__link" href="leczenie-kanalowe-szczecin.html">Leczenie kanałowe</a>
+                </li>
+                <li class="header__element">
+                  <a class="header__menu-link sub-menu__link" href="chirurgia-stomatologiczna-szczecin.html">Chirurgia
+                    stomatologiczna</a>
+                </li>
+                <li class="header__element">
+                  <a class="header__menu-link parent" href="stomatologia-estetyczna-szczecin.html">Stomatologia estetyczna</a>
+                  <span class="sub-menu__arrow arrow"></span>
+                  <ul class="header__menu-sub-list sub-sub-menu__list">
+                    <li><a class="header__menu-link sub-sub-menu__link" href="bonding-szczecin.html">Bonding</a></li>
+                    <li><a class="header__menu-link sub-sub-menu__link" href="licowki-szczecin.html">Licówki</a></li>
+                    <li><a class="header__menu-link sub-sub-menu__link" href="wybielanie-zebow-szczecin.html">Wybielanie
+                        zębów</a>
+                    </li>
+                    <li><a class="header__menu-link sub-sub-menu__link" href="skaling-i-piaskowanie-szczecin.html">Skaling i
+                        piaskowanie</a></li>
+                  </ul>
+                </li>
+                <li class="header__element">
+                  <a class="header__menu-link sub-menu__link" href="implanty-szczecin.html">Implanty</a>
+                </li>
+                <li class="header__element">
+                  <a class="header__menu-link sub-menu__link" href="protetyka-szczecin.html">Protetyka</a>
+                </li>
+                <li class="header__element">
+                  <a class="header__menu-link sub-menu__link" href="pogotowie-stomatologiczne-szczecin.html">Pogotowie
+                    stomatologiczne</a>
+                </li>
+                <li class="header__element">
+                  <a class="header__menu-link sub-menu__link" href="stomatologia-zachowawcza-szczecin.html">Stomatologia
+                    zachowawcza</a>
+                </li>
+                <li class="header__element">
+                  <a class="header__menu-link sub-menu__link" href="profilaktyka-stomatologiczna-szczecin.html">Profilaktyka
+                    stomatologiczne</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__li"><a href="o-nas.html" class="header__link menu__link">O nas</a></li>
+            <li class="header__li"><a href="nasz-gabinet.html" class="header__link menu__link">Nasz gabinet</a></li>
+            <li class="header__li"><a href="kontakt.html" class="header__link menu__link">Kontakt</a></li>
           </ul>
         </nav>
         <div class="header__hamburger hamburger">
@@ -116,12 +165,11 @@
       <div class="footer__wrapper">
         <nav class="footer__nav">
           <ul class="footer__ul">
-            <li><a href="#" class="footer__link hover">O nas</a></li>
-            <li><a href="#" class="footer__link hover">Nasz gabinet</a></li>
-            <li><a href="#" class="footer__link hover">Oferta</a></li>
-            <li><a href="#" class="footer__link hover">Medycyna estetyczna</a></li>
-            <li><a href="#" class="footer__link hover">Regulamin</a></li>
-            <li><a href="#" class="footer__link hover">Kontakt</a></li>
+            <li><a href="index.html" class="footer__link hover">Strona główna</a></li>
+            <li><a href="oferta.html" class="footer__link hover">Nasze usługi</a></li>
+            <li><a href="o-nas.html" class="footer__link hover">O nas</a></li>
+            <li><a href="nasz-gabinet.html" class="footer__link hover">Nasz gabinet</a></li>
+            <li><a href="kontakt.html" class="footer__link hover">Kontakt</a></li>
           </ul>
         </nav>
         <p class="footer__author">Projekt graficzny <a href="www.tenpro.pl" class="underline">TENPRO</a></p>
@@ -132,6 +180,7 @@
   <script src="assets/slick/slick.min.js"></script>
   <script src="assets/js/header.js"></script>
   <script src="assets/js/script.js"></script>
+  <script src="assets/js/menu.js"></script>
   </body>
   
   </html>
