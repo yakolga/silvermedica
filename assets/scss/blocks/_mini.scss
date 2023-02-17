@@ -66,13 +66,13 @@
     &__container {
       padding-top: 89px;
     }
+        &__category {
+          font-size: 15px;
+          line-height: 19px;
+        }
   }
 
   @media (max-width: 425px) {
     background-position-x: 16%;
-    &__category {
-      font-size: 15px;
-      line-height: 19px;
-    }
   }
 }
