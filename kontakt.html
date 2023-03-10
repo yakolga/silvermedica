@@ -106,10 +106,10 @@
       <div class="kontakt__inner">
         <div class="kontakt__action kontakt__block">
           <h2 class="kontakt__heading">Napisz do nas</h2>
-          <form action="" class="kontakt__form">
+          <form action="" class="kontakt__form" id="contactform">
             <div class="kontakt__row kontakt__column">
-              <input type="text" placeholder="Twój adres e-mail" class="kontakt__input">
-              <input type="text" placeholder="Nr telefonu" class="kontakt__input">
+              <input type="text" name="email" placeholder="Twój adres e-mail" class="kontakt__input">
+              <input type="text" name="phone" placeholder="Nr telefonu" class="kontakt__input">
             </div>
             <textarea name="" id="" placeholder="Treść" class="kontakt__input"></textarea>
             <div class="kontakt__row">
@@ -194,8 +194,7 @@
               <a href="tel:+48690322521" class="prefooter__text underline">+48 690 322 521</a>
             </div>
             <div class="prefooter__element">
-              <img src="assets/icons/rezerwacja.svg" alt="silver medica najlepszy dentysta szczecin" title="silver medica stomatolog w szczecinie
-" class="prefooter__icon">
+              <img src="assets/icons/rezerwacja.svg" alt="silver medica najlepszy dentysta szczecin" title="silver medica stomatolog w szczecinie" class="prefooter__icon">
               <a href="" class="prefooter__text prefooter__underline underline">Zarezerwuj wizytę</a>
             </div>
           </div>
@@ -227,8 +226,21 @@
       </div>
     </div>
   </footer>
+  <div class="overlay">
+    <div class="modal modal_mini" id="thanks">
+      <div class="modal__close">&times;</div>
+      <h2 class="modal__logo">
+        <img src="assets/img/logo.svg" alt="logo">
+      </h2>
+      <div class="modal__subtitle">Dziękujemy za pozostawienie danych osobowych</div>
+      <div class="modal__descr">Skontaktujemy się w ciągu 24h</div>
+    </div>
+  </div>
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/header.js"></script>
   <script src="assets/js/menu.js"></script>
+  <script src="assets/js/jquery.validate.min.js"></script>
+  <script src="assets/js/jquery.maskedinput.min.js"></script>
+  <script src="assets/js/form.js"></script>
   </body>
   </html>
