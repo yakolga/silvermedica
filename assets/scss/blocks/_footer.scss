@@ -10,6 +10,20 @@
   &__link {
     margin-right: 25px;
   }
+  &__flex {
+    display: flex;
+    align-items: center;
+  }
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  &__author {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
   &__wrapper {
     display: flex;
     justify-content: space-between;
@@ -19,6 +33,12 @@
     font-size: 16px;
     line-height: 20px;
     color: var(--grey-deep);
+    margin-left: 6px;
+  }
+  &__image {
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
   }
   &__author {
     font-size: 16px;
@@ -45,5 +65,8 @@
   }
   @media (max-width: 425px) {
     padding: 48px 0 58px 0;
+    &__wrap {
+      align-items: center;
+    }
   }
 }
